@@ -2,8 +2,6 @@ Hacker World DoS tool
 =============
 
 Hacker World DoS tool ported to Go language from Python. 
-Original Python utility by Barry Shteiman http://www.sectorix.com/2012/05/17/hackerworld-web-server-dos-tool/
-I just ported the code as is quick and dirty. Original functions names are keeped and original logic mostly keeped too.
 
 The main difference from Python version layed in Golang architecture for concurrency: the goroutines. hackerworld.py runs
 a new thread for each connection in the connection pool so it uses hundreds and thousands of threads. 
