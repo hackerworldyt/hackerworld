@@ -11,7 +11,18 @@ connection pool on the same hardware than Python version can.
 
 This tool targeted for stress testing and may really down badly configured server or badly made app. Use it carefully.
 
-Examples:
+Commands:
 
+    $ apt upgrade
+    $ apt update
+    $ pkg update
+    $ pkg upgrade
+    $ pkg install python
+    $ pkg install python2
+    $ pkg install git
+    $ git clone https://github.com/hackerworldyt/hackerworld
     $ cd hackerworld
+    $ ls
+    $ python2 hackerworld.py {url}
+    Example :- $ python2 hackerworld.py https://google.com/
      
